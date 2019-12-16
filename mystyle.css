@@ -1,0 +1,17 @@
+p1.test {
+    color: salmon;
+    width: inherit;
+    font-size: larger
+}
+
+p1.test {
+    direction: ltr
+}
+
+td {
+    width: 30%
+}
+
+tr {
+    height: 100px
+}
