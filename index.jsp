@@ -12,18 +12,14 @@
 </head>
 
 <body>
-<h1>HTML 에서 공간에는 3가지 종류가 있다.</h1>
-<pre>
-    Block , Inline , Inline-block 이 세가지 인데,
-    Inline 태그와 Inline 태그는 내용물의 길이만큼 공간을 차지한다.
-    Inline 태그는 높이와 너비를 정할 수 없고 상하 padding 와 마진을 줄 수 없다.
-    Block 형식의 태그 중 대표적인 것은 div 태그가 있고,
-    Inline 은 span 이 있다. Inline-block 은 따로 CSS 를 적용해야한다.
-</pre>
-<span>span1</span>
-<span>span2</span>
-<span>span3</span>
-<div>div</div>
-<span>span4</span>
+<h1>Inline-block</h1>
+<p>Inline 은 내용물의 길이만큼 공간을 차지하고,</p><br>
+<p>Block 은 내용물의 길이와 관계없이 태그가 한줄을 통채로 차지한다.</p><br>
+<p>여기서 Inline block 은 제 각각 높이와 너비를 설정할 수 있게끔 해주는 것이다.</p>
+
+<div style="display: inline-block; width:30%;height: 50px;background: yellow">First Inline-block</div>
+<div style="display: inline-block; width:30%;height: 50px;background: aquamarine">Second Inline-block</div>
+<div style="display: inline-block; width:30%;height: 50px;background: blue">Final Inline-block</div>
+
 </body>
 </html>
